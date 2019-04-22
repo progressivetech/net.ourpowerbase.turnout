@@ -1,44 +1,8 @@
 # net.ourpowerbase.turnout
 
-![Screenshot](/images/screenshot.png)
+The turnout module provides a series of custom participant fields to help you
+track who has been called for a given event and tracks what their response to
+the invitation is (e.g. yes, no, maybe).
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
-
-The extension is licensed under [AGPL-3.0](LICENSE.txt).
-
-## Requirements
-
-* PHP v5.6+
-* CiviCRM (*FIXME: Version number*)
-
-## Installation (Web UI)
-
-This extension has not yet been published for installation via the web UI.
-
-## Installation (CLI, Zip)
-
-Sysadmins and developers may download the `.zip` file for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-cd <extension-dir>
-cv dl net.ourpowerbase.turnout@https://github.com/FIXME/net.ourpowerbase.turnout/archive/master.zip
-```
-
-## Installation (CLI, Git)
-
-Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) repo for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-git clone https://github.com/FIXME/net.ourpowerbase.turnout.git
-cv en turnout
-```
-
-## Usage
-
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
+In addition it provides reports to help track the turnout effort and show
+statistics by the organizers making the calls.
